@@ -1,0 +1,218 @@
+ body{
+ 	padding:;
+  background-color:#
+ 
+ }
+   
+    .navbar-default{
+    background-color:  #696969;
+    padding: 7px;
+    display: block;
+    font-family:italic;
+  font-size: 1.5em;
+  }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+  }
+  /*.navbar-nav{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0px 100px 0;
+  }
+   .navbar-default .nav-pills li a {
+    color: white;
+    display: block;
+    margin-left: 100px;
+    font-size: 1.5em;
+   }
+   .navbar-collapse ul{
+    float: left;
+   }
+   .logo img{
+    margin: 15px 0 0 90px;
+   }*/
+
+hr { width:90%; height:1px; background: red;}
+
+  h1{
+    font-weight: 1.5em;
+    font-size: 2.0em;
+    margin-left: 40px;
+    margin-top: 0px;
+  }
+
+  /*SECTION*/
+section{
+  background-color: #fff;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 100px;
+}
+ 
+   .section{
+      background-color: #fff;
+      padding:10px 0 0px 10px;
+      margin-top: 0px;
+    }
+    .section .row{
+      padding-left: 50px;
+      background-color: transparent;
+      margin:10px 10px 0px 10px;
+       }
+      
+       .section .fa {
+      align-items: right;
+    
+      padding: 40px;
+
+      }
+     
+      .fa-volume-up{
+        color: white;
+       margin-left: 40px;
+      }
+      .fa-pie-chart{
+        color: white;
+        margin-left: 40px;
+      }
+      .fa-envelope-o{
+        color: white;
+        margin-left: 40px;
+      }
+      .fa-check-square-o{
+        color: #8B0000;
+        margin-left: 40px;
+      }
+      .row1{
+        padding-left: 50px;
+         margin:10px 10px 0px 10px;
+      }
+
+      h2{
+        color: white;
+        text-align: center;
+
+      }
+      
+
+      p{
+        padding-top: 10px;
+      }
+      th{
+        border: 1px solid black;
+      }
+      
+blockquote {
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 15px;
+  border-left: 3px solid #996633;
+} 
+.thumbnail{
+  background-color: #006633;
+}
+.container{
+  position: center;
+  padding: 
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #F5F5DC;
+    resize: none;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #F5F5DC;
+}
+.center {
+   margin: auto;
+    width: 70%;
+    border: 3px solid #F5F5DC;
+    padding: 70px;
+    background-color: #F5F5DC;
+
+}
+.btn-primary{
+  float: right;
+  background-color:#008080; 
+  margin-top: 2px;
+}
+.glyphicon{
+color:#008080;
+}
+.fa-volume-up {
+    font-size: 8.5vw;
+    color:
+}
+
+
+
+
+
+/* Font ico (Font-Awesome) */
+/*.elastic-fai-xl{
+    font-size:80px;
+}
+.elastic-fai-lg{
+    font-size:50px;
+}
+.elastic-fai-md{
+    font-size:40px;
+}
+.elastic-fai-sm{
+    font-size:30px;
+}
+.elastic-fai-xs{
+    font-size:20px;
+}
+/* Extra small devices */
+@media(max-width:544px){
+    .elastic-fai-group > .elastic-fai, .elastic-fai-xs{
+        font-size:20px;
+    }
+}
+/* Small devices */
+@media(min-width:544px){
+    .elastic-fai-group > .elastic-fai, .elastic-fai-sm{
+        font-size:30px;
+    }
+}
+/* Medium devices */
+@media(min-width:768px){
+    .elastic-fai-group > .elastic-fai, .elastic-fai-md{
+        font-size:40px;
+    }
+}
+/* Large devices */
+@media(min-width:992px){
+    .elastic-fai-group > .elastic-fai, .elastic-fai-lg{
+        font-size:50px;
+    }
+}
+/* Exrta Large devices */
+@media(min-width:1200px){
+    .elastic-fai-group > .elastic-fai, .elastic-fai-xl{
+        font-size:80px;
+    }
+}

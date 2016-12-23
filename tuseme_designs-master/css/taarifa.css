@@ -1,0 +1,136 @@
+ body { 
+  padding: 40px 50px 0 50px;
+  background-color:
+  font-size: 15px;
+  line-height: 1.428;
+
+}
+/*NAVBAR*/
+  .navbar-default{
+    background-color:  #696969;
+  }
+  .navbar-nav{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0px 90px 0;
+  }
+   .navbar-default .nav-pills li a {
+    color: #000;
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 1.5em;
+   }
+   .logo img{
+    margin: 15px 0 0 90px;
+   }
+
+
+    hr  {
+     width:80%;
+      height:1px; 
+      background: red; 
+    }
+
+  h1{
+    font-weight: 1.5em;
+    font-size: 1.5em;
+    margin-left: 150px;
+    margin-top: 0px;
+
+  }
+  h2{
+    margin-top: 100px;
+    font-weight: 1.5em;
+    font-size: 1.5em;
+    margin-left: 150px;
+    margin-top: 0px;
+
+  }
+  .section{
+ background-color: #fff;
+      margin-top: 0px;
+}
+.row{
+  background-color: transparent;
+
+}
+
+
+  .col-md-3{
+  
+  background-color:#FFDAB9;
+  padding-top: 0px;
+  margin-left: 50px;
+  margin-right: 0px;
+ }
+ .col-md-3 p {
+    margin-left: 180px;
+    margin-top: 0px;
+  }
+  .bigger{
+  font-size: 2.5em;
+   margin-left: 160px;
+}
+blockquote{
+  border-color: #FFDAB9;
+  margin-left: 350px;
+}
+.container .row{
+  background-color: transparent;
+}
+
+.col-md-4{
+  margin-left:0px;
+  
+  padding-top: 0px;
+  margin-left: 60px;
+  margin-right: 0px;
+ }
+
+  
+
+  /* Font ico (Font-Awesome) */
+.elastic-fai-xl{
+    font-size:80px;
+}
+.elastic-fai-lg{
+    font-size:50px;
+}
+.elastic-fai-md{
+    font-size:40px;
+}
+.elastic-fai-sm{
+    font-size:30px;
+}
+.elastic-fai-xs{
+    font-size:20px;
+}
+/* Extra small devices */
+@media(max-width:544px){
+    .elastic-fai-group > .elastic-fai, .elastic-fai-xs{
+        font-size:20px;
+    }
+}
+/* Small devices */
+@media(min-width:544px){
+    .elastic-fai-group > .elastic-fai, .elastic-fai-sm{
+        font-size:30px;
+    }
+}
+/* Medium devices */
+@media(min-width:768px){
+    .elastic-fai-group > .elastic-fai, .elastic-fai-md{
+        font-size:40px;
+    }
+}
+/* Large devices */
+@media(min-width:992px){
+    .elastic-fai-group > .elastic-fai, .elastic-fai-lg{
+        font-size:50px;
+    }
+}
+/* Exrta Large devices */
+@media(min-width:1200px){
+    .elastic-fai-group > .elastic-fai, .elastic-fai-xl{
+        font-size:80px;
+    }
+}

@@ -1,0 +1,147 @@
+ body{
+ 	padding: 50px;
+ }
+ p,h1{
+	font-family: 'Signika Negative', sans-serif;
+    
+}
+
+
+	/*NAVBAR*/
+
+.navbar-tabs{
+	background-color: #000;
+	border-color: transparent;
+	margin: 0px;
+    
+}
+.navbar-nav{
+	font-family: 'Signika Negative', sans-serif;
+	font-weight: 600;
+	line-height: 51px;
+	padding: 0 48px;
+	font-family: "Futura-PT",sans-serif;
+	font-size: 15px;
+	display: block;
+	white-space: nowrap;
+	
+   
+ 
+}
+.navbar-tabs .navbar-nav li a {
+	color: #fff;
+}
+.navbar-tabs .navbar-nav li a:hover{
+	color: #16a085;
+}    
+            /*MEDIA*/
+   @media(max-width: 768px){
+   	.navbar-nav{
+   		margin: 10px;
+   		background-color: rgba(0,0,0,0.7);
+   	}
+   	.navbar-toggle{
+   		margin-top: 45px;
+   	}
+   }
+   /*SLIDER*/
+   #slider {
+   	background:url('../img/images.png');
+   	width: 100%;
+   	background-size: cover;
+   
+
+   }
+   .item {
+   	color:#fff;
+   	padding: 150px;
+
+   	
+   }
+   .item h1{
+   	font-size: 2.8em;
+ 
+   }
+   .carousel-indicators li {
+   	background-color: #fff;
+   	margin: 5px;
+
+   }
+   .carousel-indicators .active{
+   	background-color: #000;
+   	border: 0 solid #000;
+   	margin: 5px;
+   }
+   .btn-success{
+   	background-color: #16a085;
+   	border: #16a085;
+   	font-size: 0.8em;
+   	padding: 10px 20px 10px 20px;
+   	margin: 15px 0;
+
+   }
+   .btn-success:hover{
+   	background-color: #000;
+   }
+  
+  /*PHOTO*/
+
+  #photo{
+  	background-color: #f5f6f7;
+  	padding: 80px 0 80px 0;
+  	text-align: center;
+  }
+
+  #photo h1{
+  	font-size: 1.2em;
+  	font-weight: 700;
+  	color: #000;
+  }
+  #photo .fa{
+  	color: #000;
+  }
+  #photo .fa:hover{
+  	color:#16a085;
+  }
+
+  /*design*/
+   #design{
+   	padding: 80px 0 80px 0;
+
+   }
+   
+   #design h1 {
+   	font-size:1.5em ;
+   	font-weight:700 ;
+   	color: #000;
+
+   }
+   #design h1:hover{
+   	color: #16a085;
+   }
+
+   /*sign up*/
+   #signup{
+   	background: url('../img/images.png');
+   	width: 100%;
+   	background-size: cover;
+   	padding: 200px 0 200px;
+   }
+   #signup h1{
+   	font-size: 1.5em;
+   	font-weight: 700;
+   	color: #fff;
+   	text-align: center;
+   }
+   #signup .btn-default{
+   	background-color: #16a085;
+   	border-color: #16a085;
+
+   }
+   #signup .btn-default:hover{
+   	background-color: #000;
+   	border-color:#000;
+}
+    #signup .fa{
+	color: #fff;
+}
